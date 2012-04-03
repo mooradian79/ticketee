@@ -17,3 +17,7 @@ end
 Then /^I should see "([^"]*)"$/ do |message|
  page.should have_content(message)
 end
+
+Then /^I should be on the project page for "([^"]*)"$/ do |project_name|
+ project_path(project_name)
+end
