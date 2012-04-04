@@ -25,3 +25,7 @@ end
 Given /^there is a project called "([^"]*)"$/ do |name|
   Factory(:project, :name => name)
 end
+
+Then /^I should not see "([^"]*)"$/ do |name|
+ page.should_not have_content(name)
+end
