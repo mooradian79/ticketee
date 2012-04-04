@@ -21,3 +21,7 @@ end
 Then /^I should be on the project page for "([^"]*)"$/ do |project_name|
  project_path(project_name)
 end
+
+Given /^there is a project called "([^"]*)"$/ do |name|
+  Factory(:project, :name => name)
+end
