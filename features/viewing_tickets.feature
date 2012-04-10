@@ -5,7 +5,7 @@ I want to see them on the project's page
 
 Background:
 	Given there is a project called "TextMate 2"
-	And that project had a ticket:
+	And that project has a ticket:
 	| title			| description					|
 	| Make it shiny! | Gradients! Starbursts! Oh my!|
   And there is a project called "Internet Explorer"
