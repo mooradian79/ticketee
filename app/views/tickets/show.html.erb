@@ -1,2 +1,4 @@
-<h2>Show tickets page</h2>
-<%= render "form" %>
+<div id='ticket'>
+	<h2><%= @ticket.title %></h2>
+	<%= simple_format(@ticket.description) %>
+</div>
