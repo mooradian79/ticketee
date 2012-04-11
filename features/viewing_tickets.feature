@@ -9,7 +9,7 @@ Background:
 	| title			| description					|
 	| Make it shiny! | Gradients! Starbursts! Oh my!|
   And there is a project called "Internet Explorer"
-  And that project had a ticket:
+  And that project has a ticket:
   	| title					| description			|
   	| Standards compliance  | Isn't a joke			|
   	
